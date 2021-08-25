@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project 1 - Converter</string>
+    <string name="value_to_convert">Value to Convert</string>
+    <string name="select_conversion">Please select which type of conversion you would like to do</string>
+    <string name="fahrenheit_to_celsius">Fahrenheit to Celsius</string>
+    <string name="celsius_to_fahrenheit">Celsius to Fahrenheit</string>
+    <string name="dollars_to_euros">Dollars to Euros</string>
+    <string name="calculate">Convert</string>
+    <string name="conversion_result">Result: %s</string>
+</resources>
