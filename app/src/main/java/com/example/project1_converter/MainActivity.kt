@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         binding.calculateButton.setOnClickListener { convert() }
     }
 
+    /* This method is the conversion method. It checks to see if the value entered by the user is an
+    * Int, and then inserts nothing if it is null. If it is an Int, then it will convert it.
+    */
     fun convert() {
         val stringInTextField = binding.valueToConvert.text.toString()
         val valueToConvert = stringInTextField.toIntOrNull()
